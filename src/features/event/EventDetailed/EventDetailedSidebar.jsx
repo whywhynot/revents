@@ -2,7 +2,7 @@ import React from "react";
 import { Segment, List, Label, Item } from "semantic-ui-react";
 
 const EventDetailedSidebar = ({ attendees }) => {
-  const isHost = true;
+  const isHost = false;
   return (
     <div>
       <Segment
